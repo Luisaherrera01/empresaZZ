@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa ZZ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <!--NAVEGADOR-->
+<body>
+  <header id="menu" style="display:none">
+    <nav id="navegador">
+      <ul class="clase-ul">
+        <li id="btnCelular">Celulares</li>
+        <li id="btnPortatil">Portatiles</li>
+        <li id="btnCliente">Clientes</li>
+        <li id="btnCerrarSesion">Cerrar Sesión</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--INICIO DE SESION-->
+  <div id="inicio-sesion" class="">
+    <h1>Iniciar Sesión</h1>
+    <form>
+      <label>Usuario:</label>
+      <input id="usuario" type="text" name="usuario"><br>
+      <label>Contraseña:</label>
+      <input id="password" type="password" name="password"><br>
+      <button id="btnInicio" type="button">Ingresar</button>
+    </form>
+  </div>
+
+  <!--FORMULARIO CELULARES-->
+  <div id="formularios" style="display: none;">
+    <div id="formulario-celular" style="display: none;">
+      <h2>Formulario venta de celular</h2>
+      <form>
+        <label>Nombre:</label>
+        <input id="nombre-celular" type="text" name="nombre-celular"><br>
+        <label>Referencia:</label>
+        <input id="referencia-celular" type="text" name="referencia-celular"><br>
+        <label>Código:</label>
+        <input id="codigo-celular" type="text" name="codigo-celular"><br>
+        <label>Valor:</label>
+        <input id="valor-celular" type="number" name="valor-celular"><br>
+        <label>Cantidades vendidas:</label>
+        <input id="cantidad-celular" type="number" name="cantidad-celular"><br>
+        <label>Imagen:</label>
+        <input type="text" id="imagen-celular" name="imagen-celular"><br>
+        <button type="button" id="btnAgregarCelular">Guardar Celular</button>
+      </form>
+    </div>
+    <!--Mostrar celulares-->
+    <div id="lista-celulares" style="display: none;">
+      <h2>Celulares vendidos</h2>
+    </div>
+
+    <!--FORMULARIO PORTATILES-->
+    <div id="formulario-portatil" style="display: none;">
+      <h2>Formulario venta de Portatiles</h2>
+      <form>
+        <label>Nombre:</label>
+        <input id="nombre-portatil" type="text" name="nombre-portatil"><br>
+        <label>Referencia:</label>
+        <input id="referencia-portatil" type="text" name="referencia-portatil"><br>
+        <label>Código:</label>
+        <input id="codigo-portatil" type="text" name="codigo-portatil"><br>
+        <label>Valor:</label>
+        <input id="valor-portatil" type="number" name="valor-portatil"><br>
+        <label>Cantidades vendidas:</label>
+        <input id="cantidad-portatil" type="number" name="cantidad-portatil"><br>
+        <label>Imagen:</label>
+        <input type="text" id="imagen-portatil" name="imagen-portatil"><br>
+        <button type="button" id="btnAgregarPortatil">Guardar Portatil</button>
+      </form>
+    </div>
+    <!--Mostrar portatiles-->
+    <div id="lista-portatiles" style="display: none;">
+      <h2>Portatiles vendidos</h2>
+    </div>
+
+    <!--FORMULARIO CLIENTES-->
+    <div id="formulario-cliente" style="display: none;">
+      <h2>Registro Clientes</h2>
+      <form>
+        <label>Nombre:</label>
+        <input id="nombre-cliente" type="text" name="nombre-cliente"><br>
+        <label>Documento:</label>
+        <input id="documento-cliente" type="number" name="documento-cliente"><br>
+        <label>Celular:</label>
+        <input id="celular-cliente" type="number" name="celular-cliente"><br>
+        <label>Direccion:</label>
+        <input id="direccion-cliente" type="text" name="direccion-cliente"><br>
+        <label>Correo:</label>
+        <input id="correo-cliente" type="email" name="correo-cliente"><br>
+        <button type="button" id="btnAgregarCliente">Guardar Cliente</button>
+      </form>
+    </div>
+
+    <!--Mostrar clientes-->
+    <div id="lista-clientes" style="display: none;">
+      <h2>Clientes</h2>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

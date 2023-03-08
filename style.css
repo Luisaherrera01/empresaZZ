@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+}
+
+/*inicio sesion*/
+#inicio-sesion {
+  width: 30%;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#inicio-sesion h1 {
+  margin-top: 0;
+}
+
+#inicio-sesion input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#inicio-sesion button {
+  background-color: rgb(94, 87, 85);
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: context-menu;
+  border: 2px solid rgb(94, 87, 85);
+}
+
+/*Formularios*/
+#formulario-celular, #formulario-portatil, #formulario-cliente {
+  width: 30%;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#formulario-celular h2 , #formulario-portatil h2, #formulario-cliente h2 {
+  margin-top: 0;
+}
+
+#formulario-celular input, #formulario-portatil input, #formulario-cliente input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#formulario-celular button , #formulario-portatil button, #formulario-cliente button {
+  background-color: rgb(94, 87, 85);
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: context-menu;
+  border: 2px solid rgb(94, 87, 85);
+}
+
+#lista-celulares, #lista-portatiles, #lista-clientes {
+  width: 30%;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#lista-celulares h2, #lista-portatiles h2, #lista-clientes h2 {
+  margin-top: 0;
+}
+
+#lista-celulares input, #lista-portatiles input, #lista-clientes input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+
+.celular-card, .portatil-card, .clientes-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.celular-card img, .portatil-card img {
+  max-width: 200px;
+}
+
+/*navegador*/
+.clase-ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.clase-ul li {
+  background-color: rgb(94, 87, 85);
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: context-menu;
+}
+
